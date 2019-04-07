@@ -24,7 +24,7 @@ class ClassC {
 
 To configure and use the dependency injection:
 
-```
+```javascript
 var dependencyInjection = require('simple-dependency-injection');
 
 var builder = new dependencyInjection.DependencyBuilder();
