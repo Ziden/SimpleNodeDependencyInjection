@@ -1,10 +1,10 @@
-# Simple Dependency Injector
+# Slim Dependency Injector
 
 A very simplistic dependency injector for NodeJS servers.
 
 # How to use
 
-`npm install simple-dependency-injector`
+`npm install slim-dependency-injector`
 
 Then in your code, lets say you have 3 nested classes.
 
@@ -25,7 +25,7 @@ class ClassC {
 To configure and use the dependency injection:
 
 ```javascript
-var dependencyInjection = require('simple-dependency-injection');
+var dependencyInjection = require('slim-dependency-injection');
 
 var builder = new dependencyInjection.DependencyBuilder();
 
