@@ -1,8 +1,12 @@
 {
-  "name": "simple-dependency-injector",
+  "name": "slim-dependency-injector",
   "version": "1.0.0",
   "description": "A minimalistic dependency injector",
   "author": "Gabriel 'Ziden' Slomka",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Ziden/SimpleNodeDependencyInjection.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.7.1"
